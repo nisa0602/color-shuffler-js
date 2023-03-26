@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    position: absolute;
+    border: 1px solid black;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 25vh;
+    margin-left: 25vw;
+    text-align: center;
+}
+
+/* .title{
+    text-align: center;
+} */
+
+.btn{
+    border: none;
+    background-color: bisque;
+    padding: 2%;
+    border-radius: 15px;
+    color: hotpink;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
